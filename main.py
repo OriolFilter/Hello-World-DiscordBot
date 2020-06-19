@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-from botInfo import *
+from botInfo2 import * #change to botInfo insted of botInfo2
 
 class botClass:
     def __init__(self,botToken,botImageURL=None,botDescription=None,prefix="!"):
